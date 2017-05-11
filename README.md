@@ -16,3 +16,17 @@
   
   
 
+
+
+
+
+
+
+
+
+
+## Validacion y Minify:
+
+
+ http://www.webtoolkitonline.com/json-minifier.html
+ http://jsbeautifier.org/
