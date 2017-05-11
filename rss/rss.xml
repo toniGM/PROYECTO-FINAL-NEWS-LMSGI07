@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>Noticias DE*TEC*MO*</title>
+		<link>https://rawgit.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/master/news.html</link>
+		<description>Pagina dedicada a las ultimas noticias en el mundo del deporte, la tecnología y motor</description>
+		<image>
+			<url>https://github.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/blob/master/img/Logo%20DETECMO.png</url>
+			<title>Noticias DE*TEC*MO*</title>
+			<link>https://rawgit.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/master/news.html</link>
+		</image>
+		<item>
+			<title>GP España F1 2017: Incertidumbre con su McLaren de cara a la cita en Barcelona</title>
+			<link>https://www.w3schools.com/xml/xml_rss.asp</link>
+			<description>Fernando Alonso ya tiene su mente en el Gran Premio de este domingo. Se trata, sin duda, de una cita muy especial. Le toca correr en casa. El ovetense intentará resarcirse del mal inicio de Mundial. "Estoy muy emocionado de volver a Barcelona para el Gran Premio de España. Es mi carrera de casa, he pasado buenos momentos allí y el ambiente es siempre una locura. Pasamos mucho tiempo allí en los tests de pretemporada, pero no es nada comparado con la emoción de correr delante de los aficionados de casa. Es un sentimiento muy especial", advierte. Alonso admite que hay algo de incertidumbre con respecto a cómo funcionará su McLaren en el Circuito de Barcelona-Cataluña: "Después de una serie de carreras difíciles para nosotros, no estoy seguro de lo que podemos esperar de este fin de semana.</description>
+			<image>
+				<url>https://github.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/blob/master/img/deportes1.jpg</url>
+				<title>deportes1</title>
+				<link>https://rawgit.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/master/news.html</link>
+				<width>155</width>
+				<height>155</height>
+			</image>
+			<pubDate>Thu, 11 May 2017 18:15:27 +0000</pubDate>
+		</item>
+		<item>
+			<title>New 2DS XL: la nueva consola que presenta Nintendo</title>
+			<link>https://www.w3schools.com/xml/xml_rss.asp</link>
+			<description>La empresa Nintendo acaba de anunciar que desea ampliar su diferentes tipos de consolas portátiles con la nueva New 2DS XL; el lanzamiento de este nuevo modelo será mostrado en las tiendas de Europa el 28 de julio de este mismo año, con un costo aproximado de 150 dólares, aunque esta cifra todavía es relativa. Esta empresa japonesa ha anunciado de sorpresa esta versión portátil mejorada, la Nintendo NEW 2DS XL, que viene con buenas y mejores características. Este modelo nuevo viene con una pantalla un poco más grande, además con una potencia más veloz y mejorada en comparación del modelo New Nintendo 3DS XL.</description>
+			<image>
+				<url>https://github.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/blob/master/img/tecnologia1.jpg</url>
+				<title>deportes1</title>
+				<link>https://rawgit.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/master/news.html/link>
+				<width>155</width>
+				<height>155</height>
+			</image>
+			<pubDate>Thu, 11 May 2017 18:15:27 +0000</pubDate>
+		</item>
+		<item>
+			<title>Prueba Peugeot 3008 1.2 PureTech, un cambio de género muy bien traído</title>
+			<link>https://www.w3schools.com/xml/xml_rss.asp</link>
+			<description>Peugeot renueva el 3008 de arriba a abajo. Pasa de ser un monovolumen compacto a un SUV con todos los aires para ser un superventas. En esta ocasión he tenido la ocasión de probar el Peugeot 3008 1.2 PureTech de 130 CV. Como en la vida, los cambios tienen que hacerse en el momento adecuado y de la forma adecuada. No hay que tener miedo a nuevos rumbos, y menos aún si son tomados con las bases con las que Peugeot ha reorientado la vida del 3008. En poco menos de 10 años el otrora monovolumen compacto se ha transformado en un esbelto SUV. La moda marca tendencia, y he aquí la razón de tal abismal cambio. Y para saber qué tal le ha sentado el cambio de género he tenido ocasión de probar el Peugeot 3008 1.2 PureTech de 130 CV.</description>
+			<image>
+				<url>https://github.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/blob/master/img/motor1.jpg</url>
+				<title>deportes1</title>
+				<link>https://rawgit.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/master/news.html</link>
+				<width>155</width>
+				<height>155</height>
+			</image>
+			<pubDate>Thu, 11 May 2017 18:15:27 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
