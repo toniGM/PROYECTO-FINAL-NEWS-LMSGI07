@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>NOTICIAS DE*TEC*MO DEPORTE TECNOLÍGIA Y MOTOR</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Pagina dedicada a las ultimas noticias en el mundo del deporte, la tecnología y motor." />
+	<meta property="og:site_name" content="Noticias DE*TEC*MO*">
+	<meta property="og:url" content="news.html">
+	<meta property="og:title" content="NOTICIAS DE*TEC*MO DEPORTE TECNOLÍGIA Y MOTOR">
+	<meta property="og:image" content="img/Logo DETECMO.png">
+	<meta property="og:description" content="Pagina dedicada a las ultimas noticias en el mundo del deporte, la tecnología y motor.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="css/news.css">
+	<link rel="alternate" type="application/rss+xml" title="rss de l'aplicació" href="url-al-fitxer-rss">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/news.js"></script>
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">	<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button> <a class="navbar-brand" href="news.html">NOTICIAS DE*TEC*MO*</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="news.html">Inicio</a>
+					</li>
+					<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Otros sitios<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="http://www.marca.com/">DEPORTES EN MARCA.COM</a>
+							</li>
+							<li><a href="http://tecnomagazine.net/">TECNOLOGIA EN TECNOMAGAZINE.NET</a>
+							</li>
+							<li><a href="https://www.motor.es/">MOTOR EN MOTOR.ES</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Identifícate<span class="glyphicon glyphicon-log-in"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<p>
+									<input type="text" class="form-control" placeholder="usuari" required>
+								</p>
+							</li>
+							<li>
+								<p>
+									<input type="password" class="form-control" placeholder="password" required>
+								</p>
+							</li>
+							<li>
+								<button type="button" class="btn-lg btn-danger btn-block">entrar</button>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span>Regístrate</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Cabezera -->
+	<div class="jumbotron text-center">
+		<div class="container">
+			<h1>NOTICIAS DE*TEC*MO*</h1>
+			<p>Todas las noticias del mundo del DEPORTE, TECNOLOGÍA y MOTOR a tu alcance.</p>
+		</div>
+	</div>
+	<!-- Boton activar Scroll-->
+	<div class="container text-center">
+		<button id="botonscroll" class="btn btn-success btn">scroll inactivo</button>
+	</div>
+	<!-- Capa Publicidad -->
+	<div class="publicidad">
+		<h1>PUBLICIDAD</h1>
+		<p>Para anunciar su publicidad contacte con nosotros en el apartado !GRACIAS¡</p>
+	</div>
+	<!-- Container de Noticias -->
+	<div class="contenedornoticias">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4 hidden-xs">
+					<div id="noticia1">
+						<h3>ESTE MES EN DEPORTE...</h3>
+						<p>Elige cual es tu jugador favorito</p>
+						<p class="g"><span class="glyphicon glyphicon-globe"></span>
+						</p>	<a href="#" class="btn-danger btn-lg">ELEGIR</a>
+					</div>
+				</div>
+				<div class="col-sm-4 hidden-xs">
+					<div id="noticia2">
+						<h3>ESTE MES EN TECNOLOGIA...</h3>
+						<p>Participa en el sorteo de un IPHONE 7</p>
+						<p class="g"><span class="glyphicon glyphicon-phone"></span>
+						</p>	<a href="#" class="btn-danger btn-lg">PARTICIPAR</a>
+					</div>
+				</div>
+				<div class="col-sm-4 hidden-xs">
+					<div id="noticia3">
+						<h3>ESTE MES EN MOTOR...</h3>
+						<p>Vota el mejor coche del mes</p>
+						<p class="g"><span class="glyphicon glyphicon-wrench"></span>
+						</p>	<a href="#" class="btn-danger btn-lg">VOTAR</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Container de las noticias -->
+		<div class="container-fluid bg-grey">
+			<div class="containernoticias1">
+				<article class="post clearfix">
+					<a href="news1.html" class="thumb pull-left">
+						<img class="img-thumbnail" src="img/deportes1.jpg" alt="deportes">
+					</a>
+					<h2>GP España F1 2017: Incertidumbre con su McLaren de cara a la cita en Barcelona</h2>
+					<p><span class="post-fecha">08 de Mayo de 2017</span> obtenida de <span class="post-autor"><a href="http://www.marca.com/">marca.com</a></span>
+					</p>
+					<p class="post-contenido text-justify">Fernando Alonso ya tiene su mente en el Gran Premio de este domingo. Se trata, sin duda, de una cita muy especial. Le toca correr en casa. El ovetense intentará resarcirse del mal inicio de Mundial. "Estoy muy emocionado de volver a Barcelona para el Gran Premio de España. Es mi carrera de casa, he pasado buenos momentos allí y el ambiente es siempre una locura. Pasamos mucho tiempo allí en los tests de pretemporada, pero no es nada comparado con la emoción de correr delante de los aficionados de casa. Es un sentimiento muy especial", advierte. Alonso admite que hay algo de incertidumbre con respecto a cómo funcionará su McLaren en el Circuito de Barcelona-Cataluña: "Después de una serie de carreras difíciles para nosotros, no estoy seguro de lo que podemos esperar de este fin de semana.</p>
+					<div class="contenedor-botones">	<a href="news1.html" class="btn btn-danger btn-block">Ver noticia completa</a>
+					</div>
+				</article>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="containernoticias1">
+				<article class="post clearfix">
+					<a href="news2.html" class="thumb pull-left">
+						<img class="img-thumbnail" src="img/tecnologia1.jpg" alt="tecnologia">
+					</a>
+					<h2>New 2DS XL: la nueva consola que presenta Nintendo</h2>
+					<p><span class="post-fecha">08 de Mayo de 2017</span> obtenida de <span class="post-autor"><a href="http://tecnomagazine.net">tenomagazine.net</a></span>
+					</p>
+					<p class="post-contenido text-justify">La empresa Nintendo acaba de anunciar que desea ampliar su diferentes tipos de consolas portátiles con la nueva New 2DS XL; el lanzamiento de este nuevo modelo será mostrado en las tiendas de Europa el 28 de julio de este mismo año, con un costo aproximado de 150 dólares, aunque esta cifra todavía es relativa. Esta empresa japonesa ha anunciado de sorpresa esta versión portátil mejorada, la Nintendo NEW 2DS XL, que viene con buenas y mejores características. Este modelo nuevo viene con una pantalla un poco más grande, además con una potencia más veloz y mejorada en comparación del modelo New Nintendo 3DS XL.</p>
+					<div class="contenedor-botones">	<a href="news2.html" class="btn btn-danger btn-block">Ver noticia completa</a>
+					</div>
+				</article>
+			</div>
+		</div>
+		<div class="container-fluid bg-grey">
+			<div class="containernoticias1">
+				<article class="post clearfix">
+					<a href="news1.html" class="thumb pull-left">
+						<img class="img-thumbnail" src="img/motor1.jpg" alt="Motor">
+					</a>
+					<h2>Prueba Peugeot 3008 1.2 PureTech, un cambio de género muy bien traído</h2>
+					<p><span class="post-fecha">08 de Mayo de 2017</span> obtenida de <span class="post-autor"><a href="http://www.motor.es/">motor.es</a></span>
+					</p>
+					<p class="post-contenido text-justify">Peugeot renueva el 3008 de arriba a abajo. Pasa de ser un monovolumen compacto a un SUV con todos los aires para ser un superventas. En esta ocasión he tenido la ocasión de probar el Peugeot 3008 1.2 PureTech de 130 CV. Como en la vida, los cambios tienen que hacerse en el momento adecuado y de la forma adecuada. No hay que tener miedo a nuevos rumbos, y menos aún si son tomados con las bases con las que Peugeot ha reorientado la vida del 3008. En poco menos de 10 años el otrora monovolumen compacto se ha transformado en un esbelto SUV. La moda marca tendencia, y he aquí la razón de tal abismal cambio. Y para saber qué tal le ha sentado el cambio de género he tenido ocasión de probar el Peugeot 3008 1.2 PureTech de 130 CV.</p>
+					<div class="contenedor-botones">	<a href="news1.html" class="btn btn-danger btn-block">Ver noticia completa</a>
+					</div>
+				</article>
+			</div>
+		</div>
+		<div id="masnoticias1" class="container text-center">
+			<button id="botnoticias" class="btn btn-success btn-block" onclick="leerjason1()">Ver mas noticias <span class="glyphicon glyphicon-plus"></span>
+			</button>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<ul class="footer-links">
+				<li><a class="active" href="#">Inicio</a>
+				</li>
+				<li><a href="#facebook">Facebook</a>
+				</li>
+				<li><a href="#twiter">Twiter</a>
+				</li>
+				<li><a href="#RSS">RSS</a>
+				</li>
+				<li><a href="#contact">Contacto</a>
+				</li>
+			</ul>
+			<p>Developed by Antonio Garcias Muñoz</p>
+		</div>
+	</footer>
+</body>
+
+</html>
