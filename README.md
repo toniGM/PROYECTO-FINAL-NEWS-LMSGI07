@@ -78,7 +78,7 @@
   
 ## Se ha creado una "Branch" con la versión Minify del proyecto. Ver aqui:
 
-  * http://
+  * https://rawgit.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/Minify-proyecto-news/news.html
   
 
 ## Validación e identación de todo el codigo. Tambien realización de  Minify:
