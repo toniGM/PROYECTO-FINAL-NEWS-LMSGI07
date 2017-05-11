@@ -7,7 +7,7 @@
   
   
 ## Diseño para PC y Tablet (+ de 768px)
-### Header. Ocupa el ancho de pantalla y de altura adecuada, incluyendo en el: Contenedor para los elementos del header:
+### Header. Ocupa el ancho de pantalla y de altura adecuada, incluyendo en el:
   * NAV (Barra de navegación) Fijada arriba aunque se realice scrolling,  que en su interior dispone de:
       * Boton de inicio para recargar la pagina inicial.
       * Boton desplegable "Otros sitios" que nos deja acceder a las webs de donde se han obtenido las noticias.
