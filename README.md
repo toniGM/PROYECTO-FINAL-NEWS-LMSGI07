@@ -1,5 +1,8 @@
 # PROYECTO-FINAL-NEWS-LMSGI07
 
+## Ver aquí:
+  * https://rawgit.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/master/news.html
+
 ## Maquetación del proyecto: 
   Layer design del proyecto encargado por el cliente, consistente en la realización de una pagina web de noticias con espacio para la     publicidad ( en el lado derecho) en version PC y tablet de 300 px de ancho , y para versión móvil de 90px de alto en la parte           superior. Todo ello en RESPONSIVE.
   
@@ -82,3 +85,4 @@
 
  * http://www.webtoolkitonline.com/json-minifier.html
  * http://jsbeautifier.org/
+ * http://minifycode.com/
