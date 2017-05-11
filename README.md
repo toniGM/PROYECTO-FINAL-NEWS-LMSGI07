@@ -81,7 +81,7 @@
   * http://
   
 
-## Validacion y Minify:
+## Validación e identación de todo el codigo. Tambien realización de  Minify:
 
  * http://www.webtoolkitonline.com/json-minifier.html
  * http://jsbeautifier.org/
