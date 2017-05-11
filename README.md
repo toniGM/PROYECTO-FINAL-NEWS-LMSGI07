@@ -4,6 +4,6 @@
 
 ### Ver aqui;
 
-  * 
+  * https://rawgit.com/toniGM/PROYECTO-FINAL-NEWS-LMSGI07/Minify-proyecto-news/news.html
 
 
