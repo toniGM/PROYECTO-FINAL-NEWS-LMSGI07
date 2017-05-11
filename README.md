@@ -52,65 +52,33 @@
    * Uso de Boopstrap adecuado a responsive. Conteniendo varios links e informacion del creador.
  
 
+## Tareas Realizadas
 
-#### Diseño de escritorio ###
-El banner para pantallas de 768px a 922px tendra una dimensión de 200px de ancho. para pantallas superiores a 922px el ancho del banner será de 300px.
-
-![Imagen diseño Desktop](doc/DiseñoDesk.png)
-
-#### Diseño de movil ###
-Cuando el scrolling no se encuentre en el top de la ventana no se mostrara la publicidad. El menú aparece contraido en un boton y se visualizara pulsando sobre él.
-
-![Imagen diseño movil](doc/DiseñoMov.png)
-
-Cuando el scrolling esté en el top se visualizará el banner de publicidad con una altura de 90px. Se ocultara cuando se haga scrolling hacia abajo y cuando se vuelva al top de la ventana se volverá a visualizar.
-
-![Imagen diseño movil con banner](doc/DiseñoMoovScrolling.png)
-
-Diseño final visualizarlo en https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html.
-
-### Banner publicidad ###
-Comprobado que si se tiene un bloqueador de publididad (tipo AdBlock) el elemento del banner no se visualiza.
-
-### Scrolling y botón cargar más noticias ###
-
-Se habilita un elemento button para Activar el scrolling (tambien desactivar) y cargar más noticias. Realizará 2 cargas. El 1.json y el 2.json.
-
-Si se habilita el scrolling cada vez que se se llegue al final de la ventana cargara las nuevas noticias (hasta 2 veces). Una vez realizadas las 2 cargas el boton de más noticias desaparecerá. Se visualizara también en el contenedor de stats el número de noticicas mostradas.
-
-### Inicialización ###
-Por defecto se cargan 3 noticias. Las 2 primeras enlazan a news1.xtml y news2.html.
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
+  * Presentación de 3 noticias (en Html).
+  * Almacenamiento de 6 noticias más (están en data/1.json y en data/2.json, conteniendo 3 noticias cada una). A las cuales se accederia     clicando en el botón al final de página "Ver más noticias".
+  * Se codifica news.js en JQuery con un elemento button para activar o desactivar el scrolling.
+  * Se el codifica igualmente el botón al final de página "Ver más noticias" para cargar más noticias de data/1.json y data/2.json.
+    (sin funcionamiento).
+   * Se codifica la pagina news1.html para que cuando hagamos clic en la primera noticia de la página pricipal (ver noticia completa) se      nos abre dicha página mostrando la imagen en tamaño grande, todo el contenido de la noticiay y un video de "youtube" sobre la            noticia. Todo ello en con la funcion RESPONSIVE. Exactamente lo mismo se ha realizado para news2.html accediendo desde la noticia 2      en la pagina principal.
+   * Se ha incluido rss.xml.
+   * Cada página contiene las etiquetas meta para compartir el título, descripción, imagen, nombre de la aplicación y url de la página.
 
 
 ## Adecuación del proyecto a las especificaciones del cliente y acabado final.
+
   * Se ha utilizado un diseño de estilo ligeramente minimalista con uso de paleta de colores adecuada.
   * Se ha realizado separación de los contenedores de noticias y de publicidad.
   * Se han dejado los 300px requeridos en versión PC y tablet, y los 90 px en versión móvil.
   * Desaparece la publicidad fijada arriba en la versón móvil al realizar srcolling hacia abajo.
   * Se han usado las especificaciones requeridas en cuanto a tamaño del título, descripción del artículo de noticias, colocación de la       imagen en el lugar adecuado y presentacion de la fecha y hora de publicación.
-  * Todas las noticias tienen el mismo formato, mostando los datos especificados de forma elegante en todo el dispositivo y en todas su     versiones.
+  * Todas las noticias tienen el mismo formato, mostrando los datos especificados de forma elegante en todo el dispositivo y en todas su     versiones.
   
-## Se ha creado una "Branch
+## Se ha creado una "Branch" con la versión Minify del proyecto. Ver aqui:
+
+  * http://
   
-
-
 
 ## Validacion y Minify:
-
 
  * http://www.webtoolkitonline.com/json-minifier.html
  * http://jsbeautifier.org/
